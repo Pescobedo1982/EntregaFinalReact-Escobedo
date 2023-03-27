@@ -1,0 +1,25 @@
+*{
+  
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.counter{
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(56, 36, 181);
+    border-radius: 8px;
+}
+
+button{
+    background-color: azure;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
