@@ -13,8 +13,8 @@ const Cerrado = () =>{
       <div className='col'>
       <img style={{ height: "15rem" }} src={Products.image} alt='imagen producto'/>
       <div className='text'>
-        <h3>{Products.marca}</h3>
-        <p>precio ${Products.precio}</p>
+        <h3>{Products.title}</h3>
+        <p>precio ${Products.price}</p>
         <button className='button' onClick={Cerrado}>Comprar</button>
       </div>
       </div>
